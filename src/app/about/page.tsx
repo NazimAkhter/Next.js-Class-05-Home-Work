@@ -1,8 +1,8 @@
 export default function About() {
   return (
-    
-      <div>
-        <h1 className="text-blue-950 text-4xl font-bold mt-3 text-center">
+      <section className="h-[58vh] ">    
+      <div className="my-16">
+        <h1 className="text-blue-950 text-4xl font-bold text-center">
           About us:
         </h1>
         <div className="bg-slate-50 p-4 mx-12 mt-2 mb-0 text-justify rounded-xl h-80">
@@ -39,5 +39,6 @@ export default function About() {
           </p>
         </div>
       </div>
+      </section>
   );
 }
